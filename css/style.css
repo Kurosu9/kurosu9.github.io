@@ -1,4 +1,55 @@
-img {
+/* home */
+.home {
+  padding: 50px 0px 50px 0px;
+}
+ul {
+  list-style-type: none;
+}
+.photo {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.photo .info {
+  width: 600px;
+  height: 300px; 
+  text-align: center;
+  padding-top: 70px;
+}
+
+.photo .info p {
+  padding: 10px;
+}
+
+/* edu_and_bio */
+.edu_and_bio_inner {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.edu_inner {
+  width: 500px;
+  height: 500px;
+  text-align: end;
+}
+
+.bio_inner {
+  width: 500px;
+  height: 500px;
+}
+
+.edu_and_bio_inner img {
+  padding-right: 50px;
+}
+
+
+
+/* img {
     animation-name: slidein;
     animation-duration: 5s;
 }
@@ -11,4 +62,5 @@ img {
     to {
       margin-left: 0%;
     }
-}
+} */
+
