@@ -5,15 +5,24 @@
 }
 
 html, body {
-    font-size: 18px;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    line-height: 30px;
 }
 
 .wrapper {
     position: relative;
     background-color: #007ACC;
+    min-height: 100vh;
 }
 
 .container {
-    width: 900px;
+    width: 1224px;
     margin: 0 auto;
 }

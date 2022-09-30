@@ -1,14 +1,205 @@
-img {
-    animation-name: slidein;
-    animation-duration: 5s;
+@import url("animation.css");
+
+.home {
+  position: relative;
+  padding: 50px 0px 50px 0px;
+  background: url("../images/kirito.jpg") no-repeat center left;
+  background-size: cover;
 }
 
-@keyframes slidein {
-    from {
-      margin-left: 50%;
-    }
-  
-    to {
-      margin-left: 0%;
-    }
+.photo {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photo .img {
+  margin-left: 100px;
+  width: 232px;
+  height: 300px;
+  background: url("../images/my_photo.png") no-repeat left;
+  background-size: cover;
+  animation-name: slidein;
+  animation-iteration-count: 2;
+  animation-duration: 2s;
+  animation-direction: alternate;
+  transition: .3s;
+}
+
+.photo .img:hover {
+  width: 226px;
+  height: 300px;
+  background: url("../images/my_photo.png") no-repeat right;
+  background-size: cover;
+}
+
+.info h1 {
+  color: blue;
+}
+
+.photo .info {
+  margin-right: 60px;
+  width: 600px;
+  height: 300px; 
+  text-align: center;
+  padding-top: 70px;
+}
+
+.photo .info p {
+  padding: 10px;
+}
+
+/*************************************/
+.edu_and_bio {
+  border-top: #00FFFF 2px solid;
+  background: url("../images/study.jpg") no-repeat bottom;
+  background-size: cover;
+}
+
+.edu_and_bio_inner {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.edu_inner {
+  width: 500px;
+  height: 500px;
+  text-align: end;
+}
+
+.bio_inner {
+  width: 500px;
+  height: 500px;
+}
+
+.edu_and_bio_inner img {
+  margin-right: 30px;
+  animation-name: rotation;
+  animation-iteration-count: infinite;
+  animation-duration: 30s;
+}
+
+/*************************************/
+.aboutme {
+  background: url("../images/study.jpg") no-repeat;
+  background-size: cover;
+}
+
+.aboutme_inner {
+  text-align: center;
+}
+
+.hobbies img {
+  width: 500px;
+  height: 300px;
+}
+
+.hobby {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hobby {
+  margin-top: 50px;
+}
+
+.hobby_1 {
+  width: 570px;
+  height: 570px;
+  text-align: start;
+}
+
+.hobby_1 img {
+  margin-top: 20px;
+  animation-name: wave;
+  animation-duration: .9s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 3s;
+}
+
+.hobby_1 img:hover {
+  animation-play-state: paused;
+}
+
+ .hobby_2 {
+  width: 570px;
+  height: 570px;
+  text-align: end;
+}
+
+.hobby_2 img {
+  margin-top: 50px;
+  animation-name: up_down;
+  animation-duration: .9s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 3s;
+}
+
+.hobby_2 img:hover {
+  animation-play-state: paused;
+}
+
+.hobby_3 {
+  margin-top: 30px;
+}
+
+.hobby_3 img {
+  margin: 20px;
+  animation-name: swap;
+  animation-duration: .9s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-delay: 3s;
+}
+
+.hobby_3 img:hover {
+  animation-play-state: paused;
+}
+
+/*************************************/
+.footer {
+  border-top: #00FFFF 2px solid;
+}
+
+.footer_inner {
+  padding: 50px 0px;
+}
+
+.contacts {
+  text-align: center;
+}
+
+.contact_1 img {
+  width: 60px;
+  height: 60px;
+  border-radius: 18px;
+}
+
+.contact_2 img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  margin-left: 550px;
+  width: 125px;
+  transition: .2s;
+}
+
+.contact img:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
