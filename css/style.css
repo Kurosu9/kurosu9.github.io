@@ -6,6 +6,11 @@
   background: url("../images/kirito.jpg") no-repeat center left;
   background-size: cover;
 }
+@media (max-width: 1450px) {
+  .home {
+    background: url("../images/kirito.jpg") no-repeat center;
+  }
+}
 
 .photo {
   display: flex;
@@ -16,7 +21,7 @@
 
 .photo .img {
   margin-left: 100px;
-  width: 232px;
+  width: 231px;
   height: 300px;
   background: url("../images/my_photo.png") no-repeat left;
   background-size: cover;
@@ -26,10 +31,39 @@
   animation-direction: alternate;
   transition: .3s;
 }
+@media (max-width: 1030px) {
+  .photo .img {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 970px) {
+  .photo .img {
+    width: 193px;
+    height: 250px;
+  }
+}
+@media (max-width: 765px) {
+  .photo .img {
+    width: 147px;
+    height: 190px;
+  }
+}
+@media (max-width: 480px) {
+  .photo .img {
+    margin-left: 0px;
+    width: 125px;
+    height: 162px;
+  }
+}
+@media (max-width: 400px) {
+  .photo .img {
+    animation-name: none;
+    width: 125px;
+    height: 162px;
+  }
+}
 
 .photo .img:hover {
-  width: 226px;
-  height: 300px;
   background: url("../images/my_photo.png") no-repeat right;
   background-size: cover;
 }
@@ -45,6 +79,43 @@
   text-align: center;
   padding-top: 70px;
 }
+@media (max-width: 1030px) {
+  .photo .info {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 970px) {
+  .photo .info {
+    width: 450px;
+    height: 400px;
+  }
+}
+@media (max-width: 765px) {
+  .photo .info {
+    font-size: 13px;
+    width: 320px;
+    height: 300px;
+  }
+}
+@media (max-width: 570px) {
+  .photo .info {
+    width: 270px;
+    height: 350px;
+  }
+}
+@media (max-width: 515px) {
+  .photo .info {
+    width: 240px;
+    height: 362px;
+  } 
+}
+@media (max-width: 480px) {
+  .photo .info {
+    width: 180px;
+    height: 382px;
+  }
+} 
 
 .photo .info p {
   padding: 10px;
@@ -53,7 +124,7 @@
 /*************************************/
 .edu_and_bio {
   border-top: #00FFFF 2px solid;
-  background: url("../images/study.jpg") no-repeat bottom;
+  background: url("../images/white_back.jpg") no-repeat left;
   background-size: cover;
 }
 
@@ -70,10 +141,40 @@
   height: 500px;
   text-align: end;
 }
+@media (max-width: 900px) {
+  .edu_inner {
+    font-size: 15px;
+  }
+}
+@media (max-width: 730px) {
+  .edu_inner {
+    font-size: 12px;
+  }
+}
+@media (max-width: 470px) {
+  .edu_inner {
+    font-size: 10px;
+  }
+}
 
 .bio_inner {
   width: 500px;
   height: 500px;
+}
+@media (max-width: 900px) {
+  .bio_inner {
+    font-size: 15px;
+  }
+}
+@media (max-width: 730px) {
+  .bio_inner {
+    font-size: 12px;
+  }
+}
+@media (max-width: 470px) {
+  .bio_inner {
+    font-size: 10px;
+  }
 }
 
 .edu_and_bio_inner img {
@@ -82,10 +183,34 @@
   animation-iteration-count: infinite;
   animation-duration: 30s;
 }
+@media (max-width: 985px) {
+  .edu_and_bio_inner img {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media (max-width: 730px) {
+  .edu_and_bio_inner img {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media (max-width: 590px) {
+  .edu_and_bio_inner img {
+    width: 120px;
+    height: 120px;
+  }
+}
+@media (max-width: 430px) {
+  .edu_and_bio_inner img {
+    width: 90px;
+    height: 90px;
+  }
+}
 
 /*************************************/
 .aboutme {
-  background: url("../images/study.jpg") no-repeat;
+  background: url("../images/white_back.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -203,3 +328,4 @@
 .contact img:hover {
   background-color: rgba(0, 255, 255, 0.5);
 }
+

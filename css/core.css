@@ -15,6 +15,11 @@ ul {
 p {
     line-height: 30px;
 }
+@media (max-width: 570px) {
+    p {
+        line-height: 20px;
+    }
+}
 
 .wrapper {
     position: relative;
@@ -25,4 +30,10 @@ p {
 .container {
     width: 1224px;
     margin: 0 auto;
+}
+@media (max-width: 1264px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
 }

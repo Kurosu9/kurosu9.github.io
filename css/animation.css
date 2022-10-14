@@ -16,6 +16,7 @@
     }
 }
 
+
 @keyframes up_down {
     0% {
       margin-top: 0%;
@@ -48,6 +49,17 @@
     100% {
       margin-left: 20%;
     }
+}
+@media (max-width: 1150px) {
+  @keyframes slidein {
+    0% {
+      margin-left: 40px;
+    }
+
+    100% {
+      margin-left: 10%;
+    }
+  }
 }
 
 @keyframes rotation {
