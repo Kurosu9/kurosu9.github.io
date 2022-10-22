@@ -3,12 +3,17 @@
 .home {
   position: relative;
   padding: 50px 0px 50px 0px;
-  background: url("../images/kirito.jpg") no-repeat center left;
+  background: url("../images/kirito.jpg") no-repeat top center;
   background-size: cover;
 }
 @media (max-width: 1450px) {
   .home {
-    background: url("../images/kirito.jpg") no-repeat center;
+    background: url("../images/kirito.jpg") no-repeat top center;
+  }
+}
+@media (max-width: 550px) {
+  .home {
+    background: url("../images/kirito_resize.jpg") no-repeat top left;
   }
 }
 
@@ -120,6 +125,30 @@
 .photo .info p {
   padding: 10px;
 }
+ 
+/*************CLICKER**************/
+.clicker {
+  text-align: center;
+}
+
+#button {
+  width: 100%;
+  height: 130px;
+  border-radius: 40px;
+  font-size: 25px;
+  margin: 10px auto;
+  border: 3px black solid;
+}
+
+.clicker p {
+  margin: auto;
+  padding: 8px;
+  font-size: 25px;
+  width: 200px;
+  background-color: grey;
+  border-radius: 20px;
+  border: 3px black solid;
+}
 
 /*************************************/
 .edu_and_bio {
@@ -191,60 +220,6 @@
   .edu_and_bio_inner img {
     width: 90px;
     height: 90px;
-  }
-}
-
-.clicker {
-  margin-top: 50px;
-  width: 300px;
-  height: 200px;
-  text-align: center;
-}
-
-#button {
-  width: 300px;
-  height: 100px;
-  border-radius: 40px;
-  font-size: 25px;
-}
-
-.clicker p {
-  margin-top: 20px;
-  font-size: 25px;
-}
-
-@media (max-width: 900px ) {
-  .clicker {
-    font-size: 15px;
-    width: 150px;
-    height: 150px;
-  }
-  #button {
-    width: 150px;
-    height: 70px;
-    border-radius: 30px;
-    font-size: 15px;
-  }
-  .clicker p {
-    margin-top: 10px;
-    font-size: 18px;
-  }
-}
-@media (max-width: 730px ) {
-  .clicker {
-    font-size: 10px;
-    width: 100px;
-    height: 100px;
-  }
-  #button {
-    width: 100px;
-    height: 30px;
-    border-radius: 30px;
-    font-size: 10px;
-  }
-  .clicker p {
-    margin-top: 8px;
-    font-size: 13px;
   }
 }
 
