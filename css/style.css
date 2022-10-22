@@ -194,6 +194,60 @@
   }
 }
 
+.clicker {
+  margin-top: 50px;
+  width: 300px;
+  height: 200px;
+  text-align: center;
+}
+
+#button {
+  width: 300px;
+  height: 100px;
+  border-radius: 40px;
+  font-size: 25px;
+}
+
+.clicker p {
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+@media (max-width: 900px ) {
+  .clicker {
+    font-size: 15px;
+    width: 150px;
+    height: 150px;
+  }
+  #button {
+    width: 150px;
+    height: 70px;
+    border-radius: 30px;
+    font-size: 15px;
+  }
+  .clicker p {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+}
+@media (max-width: 730px ) {
+  .clicker {
+    font-size: 10px;
+    width: 100px;
+    height: 100px;
+  }
+  #button {
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 10px;
+  }
+  .clicker p {
+    margin-top: 8px;
+    font-size: 13px;
+  }
+}
+
 /*************************************/
 .aboutme {
   background: url("../images/white_back.jpg") no-repeat center;
