@@ -3,17 +3,17 @@
 .home {
   position: relative;
   padding: 50px 0px 50px 0px;
-  background: url("../images/kirito.jpg") no-repeat top center;
+  background: url("../images/kirito.avif") no-repeat top center;
   background-size: cover;
 }
 @media (max-width: 1450px) {
   .home {
-    background: url("../images/kirito.jpg") no-repeat top center;
+    background: url("../images/kirito.avif") no-repeat top center;
   }
 }
 @media (max-width: 550px) {
   .home {
-    background: url("../images/kirito_resize.jpg") no-repeat top left;
+    background: url("../images/kirito_resize.avif") no-repeat top left;
   }
 }
 
@@ -28,7 +28,7 @@
   margin-left: 100px;
   width: 231px;
   height: 300px;
-  background: url("../images/my_photo.png") no-repeat left;
+  background: url("../images/my_photo.avif") no-repeat left;
   background-size: cover;
   animation-name: slidein;
   animation-iteration-count: 2;
@@ -69,7 +69,7 @@
 }
 
 .photo .img:hover {
-  background: url("../images/my_photo.png") no-repeat right;
+  background: url("../images/my_photo.avif") no-repeat right;
   background-size: cover;
 }
 
@@ -153,7 +153,7 @@
 /*************************************/
 .edu_and_bio {
   border-top: #00FFFF 2px solid;
-  background: url("../images/white_back.jpg") no-repeat left;
+  background: url("../images/white_back.avif") no-repeat left;
   background-size: cover;
 }
 
@@ -225,7 +225,7 @@
 
 /*************************************/
 .aboutme {
-  background: url("../images/white_back.jpg") no-repeat center;
+  background: url("../images/white_back.avif") no-repeat center;
   background-size: cover;
 }
 
