@@ -39,7 +39,18 @@
     width: 500px;
   }
 }
-@media (max-width: 850px) {
+@media (max-width: 1010px) {
+  @keyframes swap {
+    0% {
+      width: 0px;
+    }
+
+    100% {
+      width: 400px;
+    }
+  }
+}
+@media (max-width: 900px) {
   @keyframes swap {
     0% {
       width: 0px;
@@ -50,6 +61,17 @@
     }
   }
 }
+@media (max-width: 900px) {
+  @keyframes swap {
+    0% {
+      width: 0px;
+    }
+
+    100% {
+      width: 250px;
+    }
+  }
+}
 @media (max-width: 645px) {
   @keyframes swap {
     0% {
@@ -57,7 +79,18 @@
     }
 
     100% {
-      width: 200px;
+      width: 180px;
+    }
+  }
+}
+@media (max-width: 540px) {
+  @keyframes swap {
+    0% {
+      width: 0px;
+    }
+
+    100% {
+      width: 150px;
     }
   }
 }

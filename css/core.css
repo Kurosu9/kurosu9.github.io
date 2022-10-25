@@ -5,7 +5,8 @@
 }
 
 html, body {
-    font-size: 20px;
+    font: 18px "Roboto", "sans-serif";
+    font-weight: normal;
 }
 
 ul {
@@ -31,9 +32,9 @@ p {
     width: 1224px;
     margin: 0 auto;
 }
-    @media (max-width: 1264px) {
-        .container {
-            width: 100%;
-            padding: 0 20px;
-        }
+@media (max-width: 1264px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
     }
+}
