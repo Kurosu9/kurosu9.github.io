@@ -1,5 +1,13 @@
 @import url("animation.css");
 
+/* .header_inner h1{
+  position: fixed;
+  width: 1224px;
+  height: 300px;
+  z-index: 100;
+  margin: auto;
+} */
+
 .home {
   position: relative;
   padding: 50px 0px 50px 0px;
@@ -204,7 +212,19 @@
   }
 }
 
-.edu_and_bio_inner img {
+#fetch #data {
+  width: 100px;
+  height: 100px;
+}
+
+#fetch img {
+  margin: 50px;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.edu_and_bio_inner #logo {
   margin-right: 30px;
   animation-name: rotation;
   animation-iteration-count: infinite;
