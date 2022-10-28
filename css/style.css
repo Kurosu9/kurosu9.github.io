@@ -1,27 +1,38 @@
 @import url("animation.css");
 
-/* .header_inner h1{
+.header {
   position: fixed;
-  width: 1224px;
-  height: 300px;
+  width: 100vw;
+  height: 60px;
   z-index: 100;
   margin: auto;
-} */
+  background: #427DD2;
+  text-align: center;
+}
+
+.header_inner h1 {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+/******************************************/
 
 .home {
   position: relative;
-  padding: 50px 0px 50px 0px;
-  background: url("../images/kirito.avif") no-repeat top center;
+  padding: 100px 0px 50px 0px;
+  background: url("../images/background/kirito.avif") no-repeat top center;
   background-size: cover;
 }
 @media (max-width: 1450px) {
   .home {
-    background: url("../images/kirito.avif") no-repeat top center;
+    background: url("../images/background/kirito.avif") no-repeat top center;
   }
 }
 @media (max-width: 550px) {
   .home {
-    background: url("../images/kirito_resize.avif") no-repeat top left;
+    background: url("../images/background/kirito_resize.avif") no-repeat top left;
   }
 }
 
@@ -36,7 +47,7 @@
   margin-left: 100px;
   width: 231px;
   height: 300px;
-  background: url("../images/my_photo.avif") no-repeat left;
+  background: url("../images/photo/my_photo.avif") no-repeat left;
   background-size: cover;
   animation-name: slidein;
   animation-iteration-count: 2;
@@ -84,7 +95,7 @@
 }
 
 .photo .img:hover {
-  background: url("../images/my_photo.avif") no-repeat right;
+  background: url("../images/photo/my_photo.avif") no-repeat right;
   background-size: cover;
 }
 
@@ -175,7 +186,7 @@
 /*************************************/
 .edu_and_bio {
   border-top: #00FFFF 2px solid;
-  background: url("../images/white_back.avif") no-repeat left;
+  background: url("../images/background/white_back.avif") no-repeat left;
   background-size: cover;;
 }
 
@@ -257,7 +268,7 @@
 
 /*************************************/
 .aboutme {
-  background: url("../images/white_back.avif") no-repeat center;
+  background: url("../images//background/white_back.avif") no-repeat center;
   background-size: cover;
 }
 
@@ -453,7 +464,7 @@
 }
 
 .footer_inner {
-  padding: 50px 0px;
+  padding: 50px 0px 30px 0px;
 }
 
 .contacts {
@@ -484,6 +495,22 @@
   margin: auto;
   width: 125px;
   transition: .2s;
+}
+
+.copyright {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 170px;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.copyright img {
+  width: 12px;
+  height: 12px;
+  margin-top: 9px;
 }
 
 .contact img:hover {

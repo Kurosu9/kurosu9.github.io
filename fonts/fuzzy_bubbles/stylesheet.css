@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Fuzzy Bubbles';
+    src: url('FuzzyBubbles-Bold.eot');
+    src: url('FuzzyBubbles-Bold.eot?#iefix') format('embedded-opentype'),
+        url('FuzzyBubbles-Bold.woff2') format('woff2'),
+        url('FuzzyBubbles-Bold.woff') format('woff'),
+        url('FuzzyBubbles-Bold.ttf') format('truetype'),
+        url('FuzzyBubbles-Bold.svg#FuzzyBubbles-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fuzzy Bubbles';
+    src: url('FuzzyBubbles-Regular.eot');
+    src: url('FuzzyBubbles-Regular.eot?#iefix') format('embedded-opentype'),
+        url('FuzzyBubbles-Regular.woff2') format('woff2'),
+        url('FuzzyBubbles-Regular.woff') format('woff'),
+        url('FuzzyBubbles-Regular.ttf') format('truetype'),
+        url('FuzzyBubbles-Regular.svg#FuzzyBubbles-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
