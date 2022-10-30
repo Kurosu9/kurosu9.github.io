@@ -17,3 +17,9 @@ ___
 ## __FOOTER__ ##
 ### _This is a footer. There are my social networks and copyright._ ###
 https://user-images.githubusercontent.com/99824788/198866766-5d08e4bd-c8f2-400f-b9a2-54035cdff0f1.mp4
+___
+## __RESPONSIVE DESIGN__ ##
+https://user-images.githubusercontent.com/99824788/198867392-e0a2439b-e32a-4b8f-876e-08ee4a0652f5.mp4
+___
+### __PERFORMANCE TEST__ ###
+## __ ##
