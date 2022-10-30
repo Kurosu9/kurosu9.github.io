@@ -1,5 +1,8 @@
 # __PORTFOLIO__
-### _This is my portfolio, I hope you like it because I tried very hard on it. For this portfolio as you can see I used HTML, CSS and JAVA SCRIPT. I divided my portfolio into 5 sections header, home, edu_and_bio, aboutme and contacts(footer)._ ###
+># ___IMPORTANT___ #
+>>### __PERFORMANCE TEST__ ###
+>>## _I don't know why, but because of JavaScript and YouTube videos, the performance of the site is deteriorating. Without them, the performance was somewhere 95 higher on PC and on phones._ ##
+### _This is my portfolio, I hope you like it because I tried very hard on it. For this portfolio as you can see I used HTML, CSS and JAVASCRIPT. I divided my portfolio into 5 sections header, home, edu_and_bio, aboutme and contacts(footer)._ ###
 https://user-images.githubusercontent.com/99824788/198864586-f95b6b27-3052-4f25-a9b1-dfc4ff356e1a.mp4
 ___
 ## __HEADER AND HOME__ ##
@@ -20,6 +23,3 @@ https://user-images.githubusercontent.com/99824788/198866766-5d08e4bd-c8f2-400f-
 ___
 ## __RESPONSIVE DESIGN__ ##
 https://user-images.githubusercontent.com/99824788/198867392-e0a2439b-e32a-4b8f-876e-08ee4a0652f5.mp4
-___
-### __PERFORMANCE TEST__ ###
-## __ ##
